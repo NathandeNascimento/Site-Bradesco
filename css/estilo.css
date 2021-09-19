@@ -1,0 +1,403 @@
+/*-----------------------geral-----------------------*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    height: auto;
+    width: 100vw;
+    /* adicionando imagem de fundo */
+    background: url('../img/Fundo.jpg') no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+li {
+    list-style: none;
+}
+
+form {
+    padding: 60px 10px 10px 110px;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.596);
+}
+
+b {
+    color: white;
+}
+
+/*contato.html, index.html*/
+
+.divisor {
+    width: 1px;
+    background: white;
+    margin: 12px 15px;
+}
+
+/*contato.html, contato1.html*/
+
+#formu {
+    background-color: rgba(255, 255, 255, 0.829);
+    border: solid 0px;
+    border-radius: 15px;
+    width: 85%;
+    margin-top: 5px;
+}
+
+/*contato.html, contato1.html*/
+
+#formu::placeholder {
+    padding-left: 5px;
+}
+
+/*contato.html, contato1.html*/
+
+#botao {
+    background-color: rgba(248, 6, 6, 0.39);
+    border: 0px;
+    border-radius: 15px;
+    width: 100px;
+    opacity: 70%;
+    color: white;
+    margin-top: 1px;
+    margin-left: 30%;
+    padding: 5px 10px;
+}
+
+/*contato.html*/
+
+#botao1 {
+    background-color: rgba(248, 6, 6, 0.39);
+    border: 0px;
+    border-radius: 15px;
+    width: 100px;
+    opacity: 70%;
+    color: white;
+    margin-top: 1px;
+    margin-left: 30%;
+    padding: 5px 10px;
+}
+
+/*contato.html*/
+
+#botao2 {
+    background-color: rgba(248, 6, 6, 0.39);
+    border: 0px;
+    border-radius: 15px;
+    width: 200px;
+    opacity: 70%;
+    margin-top: 15px;
+    margin-left: 16%;
+    color: white;
+    padding: 5px 20px 5px 0px;
+}
+
+/*contato.html, contato1.html, index.html*/
+
+.icone {
+    padding: -1% 0% 0% -10%;
+    margin: -10% 10% -8%-10%;
+}
+
+/*--------------------------------@mediaquery----------------------------------*/
+
+@media (min-width:992px) and (max-width:1800px) {
+    /*contato1.html*/
+    .regCon1 {
+        margin-left: -150px;
+    }
+    /*contato.html, contato1.html, index.html*/
+    .regente0 {
+        margin-left: -110px;
+    }
+    /*contato1.html, contato.html*/
+    .regente {
+        margin-left: 35px;
+    }
+    /*index.html*/
+    .relogio {
+        width: 500px;
+        margin-left: -50px;
+    }
+}
+
+@media(max-width: 992px) {
+    /*index.html*/
+    .relogio {
+        width: 500px;
+        margin-left: 130px;
+    }
+    /*contato.html, contato1.html, index.html*/
+    .regente {
+        margin-top: 90px;
+    }
+    /*index.html*/
+    .regente0 {
+        margin-top: 0px;
+        width: 300%;
+    }
+}
+
+@media (max-width: 991px) and (min-width:775px) {
+    /*index.html*/
+    .relogio {
+        margin-top: 0px;
+        width: 150%;
+        padding-left: 0px;
+        position: relative;
+    }
+    /*contato.html, contato1.html, index.html*/
+    .regente {
+        width: 400px;
+    }
+    /*contato.html, contato1.html, index.html*/
+    .regente1 {
+        width: 400px;
+        margin-left: 90px;
+    }
+    /*contato.html*/
+    .for {
+        margin-left: 40px;
+        padding: 0% 10%;
+        width: 90%;
+    }
+}
+
+@media (max-width:775px) and (min-width:576px) {
+    /*index.html*/
+    .relogio {
+        margin-top: -20px;
+        margin-left: -180px;
+        width: 150%;
+    }
+    /*contato.html, contato1.html, index.html*/
+    .regente {
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 100%;
+    }
+    /* index.html*/
+    .regente0 {
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 100%;
+    }
+    /*contato.html*/
+    .for {
+        margin-left: 60px;
+        width: 80%;
+        margin-top: -50px;
+    }
+    /*contato.html, contato1.html*/
+    .espaco {
+        padding-left: 10%;
+        ;
+    }
+}
+
+@media(max-width: 576px) {
+    /*index.html*/
+    .relogio {
+        margin-top: 1%;
+        margin-left: -110px;
+        width: 130%;
+    }
+    /*contato.html*/
+    .formuCel {
+        margin-top: -25%;
+        margin-left: -110px;
+        width: 140%;
+    }
+    /*contato.html, contato1.html, index.html*/
+    .regente {
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 100%;
+    }
+    /*contato.html*/
+    .for {
+        margin-top: 75px;
+    }
+    /*contato.html, contato1.html*/
+    .espaco {
+        padding-left: 9%;
+    }
+}
+
+@media(max-width: 576px) {
+    /*contato.html, contato1.html*/
+    .espaco {
+        padding-left: 1px;
+    }
+}
+
+/*contato1.html*/
+
+.for2 {
+    margin-bottom: 20px;
+    padding-left: 10%;
+}
+
+/*contato1.html*/
+
+.for1 {
+    margin-right: 10%;
+    padding-left: 100px;
+    margin-top: -40px;
+}
+
+@media (min-width:991px) and (max-width:1800px) {
+    /*contato1.html*/
+    .for1 {
+        margin-left: 10%;
+        margin-right: -50px;
+    }
+    /*contato.html*/
+    .regCon2 {
+        margin: 0px 0% 0px -12%;
+    }
+    /*contato.html*/
+    .formuCel {
+        margin-top: -15%;
+        margin-left: 60px;
+        width: 500px;
+    }
+}
+
+@media(max-width: 991px) and (min-width:775px) {
+    /*contato1.html*/
+    .for1 {
+        margin-left: 115%;
+        margin-right: -540px;
+        margin-top: -70px;
+    }
+    /*contato.html*/
+    .formuCel {
+        margin-top: -15%;
+        margin-left: 380px;
+        width: 140%;
+    }
+    /*contato1.html*/
+    .regCon1 {
+        margin: -90px -29% 0px -10%;
+    }
+    /*contato.html*/
+    .regCon2 {
+        margin: -90px -29% 0px -1%;
+    }
+}
+
+@media(max-width: 851px) and (min-width:774px) {
+    /*contato.html*/
+    #botao2 {
+        margin-top: 15px;
+        margin-left: 7%;
+    }
+    /*contato.html*/
+    #botao1 {
+        margin-left: 25%;
+        padding: 5px 10px;
+    }
+}
+
+@media(max-width: 775px) and (min-width:578px) {
+    /*contato.html*/
+    .formuCel {
+        margin-top: 0%;
+        margin-left: -115px;
+        width: 130%;
+    }
+    /*contato.html*/
+    .espaco1 {
+        padding-left: 0%;
+    }
+    /*contato.html*/
+    .espaco2 {
+        padding-left: 4%;
+    }
+}
+
+@media(max-width: 775px) and (min-width:330px) {
+    /*contato1.html*/
+    .for1 {
+        padding-left: 2px;
+        margin-top: 20%;
+        margin-right: -20px;
+    }
+    /*contato.html, index.html*/
+    .hamburguer {
+        padding: 5px;
+        margin-top: 0px;
+        margin-right: 3%;
+    }
+    /*contato1.html*/
+    .hamburguer2 {
+        padding: 5px;
+        margin-top: -60px;
+        margin-right: 3%;
+    }
+    /*contato1.html*/
+    .regCon1 {
+        margin: 55px 10px 0px 30px;
+        padding: -20%;
+    }
+    /*contato.html*/
+    .regCon2 {
+        margin: 90px -29% 0px -1%;
+    }
+    /*contato.htm , contato1.html , index.html*/
+    .margHamburg {
+        padding-right: 0%;
+        margin-right: 0%;
+        margin-left: 15%;
+    }
+    /*contato.html*/
+    #botao2 {
+        padding-left: 2px;
+        margin-top: 3%;
+        margin-right: 15px;
+        margin-left: 18%;
+    }
+    /*contato.html*/
+    #botao1 {
+        padding-left: -10px;
+    }
+    /*contato.html*/
+    .espaco1 {
+        padding-left: 0%;
+    }
+    /*contato.html*/
+    .espaco2 {
+        padding-left: 0%;
+    }
+    /*index.html*/
+    .regente0 {
+        margin-top: 70px;
+        margin-bottom: 70px;
+        width: 100%;
+    }
+}
+
+@media(max-width: 480px) and (min-width:330px) {
+    /*contato.html*/
+    .espaco1 {
+        margin-left: -8%;
+    }
+    /*contato.html*/
+    .espaco2 {
+        margin-left: -12%;
+    }
+    /*index.html*/
+    .relogio {
+        margin-bottom: 10%;
+        width: 150%;
+        padding-bottom: 60px;
+    }
+}
